@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <title>Lightbeam</title>
+    <link rel='stylesheet' href='https://unpkg.com/tachyons@4.5.5/css/tachyons.min.css' />
+
+    <style>
+      /* Style The Dropdown Button */
+
+      .dropbtn {
+        background-color: #4CAF50;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+      }
+      /* The container <div> - needed to position the dropdown content */
+
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      /* Dropdown Content (Hidden by Default) */
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      }
+      /* Links inside the dropdown */
+
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      /* Change color of dropdown links on hover */
+
+      .dropdown-content a:hover {
+        background-color: #f1f1f1
+      }
+      /* Show the dropdown menu on hover */
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      /* Change the background color of the dropdown button when the dropdown content is shown */
+
+      .dropdown:hover .dropbtn {
+        background-color: #3e8e41;
+      }
+
+      .mv-auto {
+        margin: auto 0;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <nav class='pa3 pa4-ns'>
+      <a class='link dim black b f1 f-headline-ns tc db mb3 mb4-ns' href='#' title='Home'>Lightbeam.ai</a>
+      <div class='tc pb3'>
+        <div class="dropdown">
+          <a class='link dim gray f6 f5-ns dib mr3 dropbtn' href='#' title='Products'>Products</a>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <a class='link dim gray f6 f5-ns dib mr3 dropbtn' href='#' title='Home'>Solutions</a>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div>
+        <a class='link dim gray f6 f5-ns dib mr3' href='#' title='Whitepapers'>Whitepapers</a>
+        <a class='link dim gray f6 f5-ns dib' href='#' title='About Us'>About Us</a>
+      </div>
+    </nav>
+    <article class='cf'>
+      <div class='fl w-100 w-50-ns tc'>
+        <main class='pa3 pa5-ns '>
+          <h1 class='tl mh6'>Data analysis...<br/>
+... in English</h1>
+          <p class='f5 lh-copy measure-narrow tl mh6'>
+            LightBeam helps process engineersolve problemsfaster and get drugs to market.
+          </p>
+          <div class='pv3 mh6'>
+            <a class='f6 link dim br2 ph3 pv2 mb2 dib white bg-navy' href='#0'>Watch Video</a>
+            <a class='f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-green' href='#0'>Schedule Demo</a>
+          </div>
+        </main>
+      </div>
+      <div class='fl w-100 w-50-ns tc'>
+        <article class='mw5 mw6-ns center pt4 '>
+          <div class='aspect-ratio aspect-ratio--6x4 mb4'>
+            <div class='aspect-ratio--object cover' style='background:url("images/laptop.png") center;'></div>
+          </div>
+        </article>
+      </div>
+    </article>
+    <section class='mw5 mw7-ns center pa3 ph5-ns'>
+      <h1 class='mt0 tc'>How it Works</h1>
+      <article class='cf'>
+        <div class='fl w-100 w-50-ns tc'>
+          <main class='pa3 pa5-ns'>
+
+          </main>
+
+        </div>
+        <div class='fl w-100 w-50-ns tc'>
+          <main class='pa3 pa5-ns'>
+            <h1>Pull your data</h1>
+            <p class='f5 lh-copy measure'>
+              Lightbeam supports most common operations including blah blah blah, enabling blahto blah 10x more effectively.
+            </p>
+          </main>
+        </div>
+      </article>
+
+      <article class='cf'>
+        <div class='fl w-100 w-50-ns tc'>
+
+          <main class='pa3 pa5-ns'>
+            <h1>Check Statistics</h1>
+          </main>
+        </div>
+        <div class='fl w-100 w-50-ns tc'>
+          <main class='pa3 pa5-ns'>
+          </main>
+        </div>
+      </article>
+    </section>
+
+    <section class='mw5 mw7-ns center pa3 ph5-ns tc'>
+      <h1 class='mt0'>Eat your vegetables and do your homework.</h1>
+      <p class='lh-copy measure center'>
+        Math is hard, but you have to do it. Today’s execs know this in the age of big molecules and big data, but it can be confusing to navigate the shockingly diversified data landscape of 2016. You have a choice between choosing a data warehouse, choosing an analytics platform, hiring expensive data scientists, and sifting through an ocean of incompetent, slow contractors... or sticking with Excel and being left behind.
+      </p>
+      <article class='mw5 mw6-ns center pt4'>
+        <p class='lh-copy measure'>
+          Big Data Landscape
+        </p>
+        <div class='aspect-ratio aspect-ratio--6x4 mb4'>
+          <div class='aspect-ratio--object cover' style='background:url("images/landscape.png") center;'></div>
+        </div>
+
+      </article>
+      <p class='lh-copy measure center'>
+        At Lightbeam, we think there’s a better way.
+      </p>
+    </section>
+
+    <section class=' center pa3 ph5-ns bt b--black-20 bg-black-10 tc'>
+      <h1 class='mt0'>The robot analyst built for process engineers</h1>
+      <p class='lh-copy measure center'>
+        Why do simple things have to be so complicated? At Lightbeam, we believe they don’t. Beneath our intuitive English-based interface, there’s a powerful data integration engine, a suite of machine learning and statistical tools, and a numerical analysis engine built for the toughest mathematical models. No code required.
+      </p>
+    </section>
+
+    <div class='dt-ns dt--fixed-ns'>
+      <div class='dtc-ns tc pv4 bg-black-10'>
+        <article class='mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10'>
+          <div class='tc'>
+            <img src='images/share.png' class=' h4 w4 dib pa2' title='Kitty staring at you'>
+            <h1 class='f3 mb2'>Mimi W.</h1>
+            <h2 class='f5 fw4 gray mt0'>CCO (Chief Cat Officer)</h2>
+          </div>
+        </article>
+      </div>
+      <div class='dtc-ns tc pv4 bg-black-10'>
+        <article class='mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10'>
+          <div class='tc'>
+            <img src='images/light.png' class=' h4 w4 dib pa2' title='Kitty staring at you'>
+            <h1 class='f3 mb2'>Mimi W.</h1>
+            <h2 class='f5 fw4 gray mt0'>CCO (Chief Cat Officer)</h2>
+          </div>
+        </article>
+      </div>
+      <div class='dtc-ns tc pv4 bg-black-10'>
+        <article class='mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10'>
+          <div class='tc'>
+            <img src='images/graph.png' class=' h4 w4 dib pa2' title='Kitty staring at you'>
+            <h1 class='f3 mb2'>Mimi W.</h1>
+            <h2 class='f5 fw4 gray mt0'>CCO (Chief Cat Officer)</h2>
+          </div>
+        </article>
+      </div>
+    </div>
+    <footer class='pv4 ph3 ph5-m ph6-l mid-gray bt b--black-20'>
+      <small class='f6 db tc'>© 2016 <b class='ttu'>SOME COMPANY Inc</b>., All Rights Reserved</small>
+      <div class='tc mt3'>
+        <a href='/language/' title='Language' class='f6 dib ph2 link mid-gray dim'>Language</a>
+        <a href='/terms/' title='Terms' class='f6 dib ph2 link mid-gray dim'>Terms of Use</a>
+        <a href='/privacy/' title='Privacy' class='f6 dib ph2 link mid-gray dim'>Privacy</a>
+      </div>
+    </footer>
+
+  </body>
+
+</html>
